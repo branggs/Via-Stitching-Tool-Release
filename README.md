@@ -16,7 +16,7 @@ Windows 10 and 11 - 64-bit
   </picture>
 </a>
 
-<sub>Version 0.1.0 (preview) - <a href="https://github.com/branggs/Via-Stitching-Tool-Release/releases">All versions</a></sub>
+<sub>Version 0.1.1 (preview) - <a href="https://github.com/branggs/Via-Stitching-Tool-Release/releases">All versions</a></sub>
 
 <br><br>
 
@@ -29,6 +29,7 @@ Windows 10 and 11 - 64-bit
 
 ## What you can do
 
+- Try it straight away on the built-in demo: a 6-layer controller board with power pours, USB and RF traces and blind vias
 - Export the open PCB from Altium with the Export for Stitching script, then open the board file here
 - Place vias off-grid wherever they fit: edge fences, fences along picked nets, return vias, island anchors and gap fill, with through and blind vias
 - Pick how far to stitch on a coverage curve: Light, Standard or Dense, or drag the cut-off
@@ -52,9 +53,13 @@ Altium DRC stays the final check: run it after importing the vias.
 
 This preview does not update itself yet: install a newer version over it to update.
 
-## What's new in 0.1.0
+## What's new in 0.1.1
 
 NEW
-- First preview: board viewer, rules and .RUL import, stitching setup, review with coverage curve, manual edits, export, projects and presets
+- A built-in demo board: choose **Try the demo board** on the start screen, then **Run** on the Stitching page
+
+IMPROVED
+- Light and Standard density now reach their coverage targets on larger boards
+- The coverage heat map counts the board's existing GND vias
 
 [All releases and notes](https://github.com/branggs/Via-Stitching-Tool-Release/releases)
